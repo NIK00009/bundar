@@ -1,0 +1,20 @@
+PANDUAN GITHUB PAGES — SAFARI BUNDAR
+
+1. Ekstrak ZIP ini dahulu. Jangan muat naik fail ZIP ke GitHub.
+2. Cipta repository bernama safari-bundar. Pilih Public jika menggunakan GitHub Free.
+3. Pilih Add file > Upload files. Muat naik index.html, app.js, style.css dan fail panduan yang diekstrak. Pastikan index.html berada terus pada aras utama repository, bukan di dalam folder tambahan.
+4. Pilih Commit changes untuk menyimpan fail.
+5. Buka Settings > Pages.
+6. Di bawah Build and deployment, pilih Source: Deploy from a branch.
+7. Pilih branch main (atau branch yang menyimpan fail tadi), folder / (root), kemudian Save.
+8. Tunggu proses penerbitan selesai. Pautan laman akan dipaparkan dalam Settings > Pages.
+
+Fail wajib: index.html, app.js, style.css. Kekalkan nama fail dan huruf kecil.
+Tiada npm, API key, pangkalan data atau langkah build diperlukan.
+Untuk cuba sebelum muat naik, buka index.html selepas mengekstrak ZIP.
+
+Jika mendapat 404, semak index.html berada di aras utama dan branch/folder Pages betul.
+Jika versi lama masih kelihatan, cuba Ctrl+F5 selepas penerbitan selesai.
+
+Dokumentasi rasmi:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
