@@ -15,7 +15,7 @@ Ekstrak ZIP dan buka `index.html` dalam Chrome, Edge, Firefox atau Safari. Pasti
 - Susah: taip nombor; sekurang-kurangnya lima soalan melibatkan pengumpulan semula.
 - 10 soalan setiap pusingan. Markah satu bagi setiap jawapan betul. Jawapan tersalah diberi penerangan; tiada penalti masa.
 - Mod campuran mengitar nilai bundar yang tersedia untuk tahun yang dipilih.
-- Toggle bahasa mengekalkan kemajuan. Tiada nama atau kelas diminta. Kemajuan berada dalam memori sahaja dan hilang apabila halaman dimuat semula.
+- Toggle bahasa mengekalkan kemajuan. Nama panggilan diminta untuk profil; kelas tidak diperlukan. Nama, koleksi dan permainan belum selesai disimpan dalam localStorage pada pelayar/peranti yang sama.
 
 ## Kaedah Cikgu
 Kira sifar pada nilai bundar, bulatkan bilangan digit yang sama dari belakang, dan lihat digit paling kiri dalam kumpulan yang dibulatkan. Digit 0–4 ialah nombor miskin (tambah 0 kepada bahagian kiri); digit 5–9 ialah nombor kaya (tambah 1 kepada bahagian kiri). Gantikan semua digit yang dibulatkan dengan sifar. Menambah pada bahagian kiri turut mengendalikan pengumpulan semula, contohnya 395 menjadi 400.
@@ -48,3 +48,15 @@ Digit tersalah pilih mendapat tanda merah ✕ dan pop-up segera. Maklum balas be
 
 ## Contoh tutorial dan mod campuran
 Contoh tutorial mempunyai nombor sendiri yang berbeza daripada nombor latihan. Selepas gerakan kad, contoh memaparkan hasil seperti 345 → 350. Butang contoh tutorial lain tersedia. Dalam mod campuran, tutorial bertukar automatik setiap 8 saat mengikut nilai bundar tahun yang dipilih; pertukaran contoh hanya mengemas kini ruang tutorial dan mengekalkan input murid. Contoh latihan baharu turut bergilir nilai bundar. Tanda merah pada digit yang tersalah pilih hilang selepas 1.8 saat.
+
+## Bantuan ketika menjawab soalan
+Senang: digit boleh dibulatkan sendiri dan kad +0/+1 tersedia pada kesemua 10 soalan. Sederhana: bulatan sendiri pada semua soalan; kad +0/+1 tersedia pada soalan 1–5 sahaja. Soalan 6–10 sederhana melatih congak tanpa kad. Susah: taip jawapan tanpa bulatan atau kad.
+
+Digit tersalah dibulatkan dalam soalan senang/sederhana mencetuskan pop-up dan bunyi salah dengan tanda merah sementara. Kad yang salah jenis atau kedudukan juga diberi amaran. Bantuan ini tidak menggunakan dua percubaan jawapan akhir dan tidak menolak markah. Bulatan, kad dan mesej bantuan dikosongkan untuk setiap soalan baharu.
+
+## Safari Saya dan profil
+16 spesies dalam empat kategori ganjaran permainan (kategori ini bukan pengelasan saintifik): 0–3 Biasa, 4–6 Istimewa, 7–9 Rare, 10 Legenda. Setiap pusingan 10 soalan yang lengkap memberi satu haiwan, mengutamakan spesies belum dimiliki dalam kategori markah itu. Jika kategori sudah lengkap, bilangan haiwan sedia ada bertambah. Amaran bantuan tidak menjejaskan markah.
+
+Nama panggilan dan koleksi disimpan secara setempat; nama sama memilih semula profil yang sama (tanpa kata laluan). Butang Tukar pemain membuka senarai profil. Sambung permainan memulihkan soalan, markah, percubaan yang telah digunakan dan jawapan yang ditaip. Markah terkumpul, rekod terbaik dan bilangan pusingan turut disimpan.
+
+Simpanan terikat kepada pelayar, peranti dan alamat laman. Data daripada fail tempatan tidak berpindah automatik ke GitHub Pages. Gunakan Muat turun sandaran di Safari Saya dan Pulihkan sandaran untuk memindahkan profil ke pelayar/peranti lain. Pemulihan menambah profil yang ID-nya belum wujud, tanpa menggantikan profil sedia ada; permainan separuh jalan tidak diimport. Fail sandaran mengandungi nama serta koleksi. Memadam data laman/pelayar atau menutup sesi private browsing boleh memadam simpanan. Tiada akaun awan, pelayan atau penghantaran nama ke pihak lain.
